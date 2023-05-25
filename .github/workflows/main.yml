@@ -12,7 +12,7 @@ env:
 
 
 permissions:
-  contests: read
+  contets: read
 
 jobs:
   web-test-build-image:
