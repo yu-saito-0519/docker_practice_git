@@ -60,6 +60,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Build an Image and Run Tests
         run: |
           docker image build --target production -t temp_api_image_name:latest .
