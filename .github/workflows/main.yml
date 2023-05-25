@@ -12,7 +12,7 @@ env:
 
 
 permissions:
-  contets: read
+  contents: read
 
 jobs:
   web-test-build-image:
